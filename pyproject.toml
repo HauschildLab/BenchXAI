@@ -1,0 +1,53 @@
+[project]
+name = "bench_xai"
+version = "0.0.1"
+authors = [
+  { name="Jacqueline Metsch", email="jacquelinemichelle.beinecke@med.uni-goettingen.de" },
+]
+maintainers = [
+  { name="Jacqueline Metsch", email="jacquelinemichelle.beinecke@med.uni-goettingen.de" },
+]
+
+description = "A package for benchmarking XAI methods"
+readme = "README.md"
+requires-python = ">=3.8"
+
+classifiers = [
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "Pillow>=9.4.0",
+    "captum==0.7.0",
+    "numpy>=1.24.1",
+    "opencv-python>=4.7.0.68",
+    "pandas>=1.5.3",
+    "scikit-image>=0.19.3",
+    "scikit-learn>=1.2.0",
+    "scipy>=1.10.0",
+    "tqdm>=4.64.1",
+    "matplotlib>=3.6.3",
+    "torch==1.13.1",
+    "torchaudio==0.13.1",
+    "torchvision==0.14.1",
+    "torchmetrics==1.4.0.post0",
+    "altair==5.1.2",
+    "vl-convert-python==1.0.1",
+    "filelock==3.13.4",
+    "configparser==7.0.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject" # still need to update
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues" # still need to update
+
+[build-system]
+requires = ["flit_core>=3.4"]
+build-backend = "flit_core.buildapi"

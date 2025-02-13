@@ -1,0 +1,4 @@
+name: bench
+dependencies:
+  - python=3.8
+
